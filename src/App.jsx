@@ -26,7 +26,7 @@ export default function App() {
             Machine Learning for Story & Screens
           </h1>
           <p className="mt-5 max-w-xl text-neutral-700">
-            I’m a developer and writer exploring how ML/AI can power creative tools and
+            I’m a programmer and writer exploring how ML/AI can power creative tools and
             media analysis. I’ve built models in TensorFlow & LightGBM, and I publish film
             and philosophy essays.
           </p>
