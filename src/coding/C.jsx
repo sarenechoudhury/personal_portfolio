@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Layout from '../Layout';
 
 export default function C() {
@@ -6,7 +5,7 @@ export default function C() {
     <Layout>
       {/* Page header */}
       <section className="py-10">
-        <p className="text-sm/6 text-neutral-600">Coding</p>
+        <p className="text-sm/6 text-neutral-600">Portfolio</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight sm:text-4xl">
           C Projects
         </h1>
@@ -34,3 +33,4 @@ export default function C() {
     </Layout>
   );
 }
+

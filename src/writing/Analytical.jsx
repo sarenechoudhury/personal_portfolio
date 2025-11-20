@@ -6,7 +6,7 @@ export default function Analytical() {
     <Layout>
       {/* Page header */}
       <section className="py-10">
-        <p className="text-sm/6 text-neutral-600">Writing</p>
+        <p className="text-sm/6 text-neutral-600">Portfolio</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight sm:text-4xl">
           Analytical Essays
         </h1>
@@ -18,6 +18,7 @@ export default function Analytical() {
       {/* Essays list */}
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
+
           <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
             <div className="flex items-baseline justify-between gap-4">
               <Link to="/writing/kant" className="font-medium group-hover:underline">
@@ -26,7 +27,8 @@ export default function Analytical() {
               <span className="text-xs text-neutral-500">Dec 2024</span>
             </div>
             <p className="mt-1 text-sm text-neutral-600 italic">
-              “Idea for a Universal History with a Cosmopolitan Purpose” & “The Major Political Writings of Jean-Jacques Rousseau” — Books
+              “Idea for a Universal History with a Cosmopolitan Purpose” &amp; 
+              “The Major Political Writings of Jean-Jacques Rousseau” — books.
             </p>
           </li>
 
@@ -38,7 +40,7 @@ export default function Analytical() {
               <span className="text-xs text-neutral-500">Nov 2024</span>
             </div>
             <p className="mt-1 text-sm text-neutral-600 italic">
-              “The Major Political Writings of Jean-Jacques Rousseau” — Book
+              “The Major Political Writings of Jean-Jacques Rousseau” — book.
             </p>
           </li>
 
@@ -50,7 +52,7 @@ export default function Analytical() {
               <span className="text-xs text-neutral-500">Nov 2024</span>
             </div>
             <p className="mt-1 text-sm text-neutral-600 italic">
-              “Leviathan” — Book
+              “Leviathan” — book.
             </p>
           </li>
 
@@ -62,7 +64,7 @@ export default function Analytical() {
               <span className="text-xs text-neutral-500">Nov 2023</span>
             </div>
             <p className="mt-1 text-sm text-neutral-600 italic">
-              “The Whipping” — Poem
+              “The Whipping” — poem.
             </p>
           </li>
 
@@ -74,7 +76,7 @@ export default function Analytical() {
               <span className="text-xs text-neutral-500">Jan 2023</span>
             </div>
             <p className="mt-1 text-sm text-neutral-600 italic">
-              “Catcher in the Rye” & “Persepolis” — Novels
+              “Catcher in the Rye” &amp; “Persepolis” — novels.
             </p>
           </li>
 
@@ -86,7 +88,7 @@ export default function Analytical() {
               <span className="text-xs text-neutral-500">Dec 2022</span>
             </div>
             <p className="mt-1 text-sm text-neutral-600 italic">
-              “Vertigo” & “Memento” — Films
+              “Vertigo” &amp; “Memento” — films.
             </p>
           </li>
 
@@ -98,11 +100,13 @@ export default function Analytical() {
               <span className="text-xs text-neutral-500">Oct 2022</span>
             </div>
             <p className="mt-1 text-sm text-neutral-600 italic">
-              “Chinatown” — Film
+              “Chinatown” — film.
             </p>
           </li>
+
         </ul>
       </section>
     </Layout>
   );
 }
+

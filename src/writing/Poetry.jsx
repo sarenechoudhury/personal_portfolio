@@ -5,7 +5,7 @@ export default function Poetry() {
     <Layout>
       {/* Page header */}
       <section className="py-10">
-        <p className="text-sm/6 text-neutral-600">Writing</p>
+        <p className="text-sm/6 text-neutral-600">Portfolio</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight sm:text-4xl">
           Poetry
         </h1>
@@ -14,11 +14,11 @@ export default function Poetry() {
         </p>
       </section>
 
-      {/* Placeholder list (expand later) */}
+      {/* Placeholder / list */}
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
 
-          <li className="rounded-lg border p-4 bg-neutral-50 text-neutral-600 text-sm italic">
+          <li className="rounded-lg border p-4 hover:bg-neutral-50 transition text-neutral-600 text-sm italic">
             Poetry uploads in progress — check back soon.
           </li>
 
@@ -27,3 +27,4 @@ export default function Poetry() {
     </Layout>
   );
 }
+

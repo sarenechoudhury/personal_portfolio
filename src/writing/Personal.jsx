@@ -6,7 +6,7 @@ export default function Personal() {
     <Layout>
       {/* Page header */}
       <section className="py-10">
-        <p className="text-sm/6 text-neutral-600">Writing</p>
+        <p className="text-sm/6 text-neutral-600">Portfolio</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight sm:text-4xl">
           Personal Pieces
         </h1>
@@ -60,5 +60,6 @@ export default function Personal() {
     </Layout>
   );
 }
+
 
   
