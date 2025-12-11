@@ -29,6 +29,18 @@ export default function Film() {
               A critique on the manner by which social media has diluted activism.
             </p>
           </li>
+
+          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+            <div className="flex items-baseline justify-between gap-4">
+              <Link to="/films/whatpoetry" className="font-medium group-hover:underline">
+                What is Poetry To You
+              </Link>
+              <span className="text-xs text-neutral-500">March 2024</span>
+            </div>
+            <p className="mt-1 text-sm text-neutral-600 italic">
+              A critique on the manner by which social media has diluted activism.
+            </p>
+          </li>
         </ul>
       </section>
     </Layout>

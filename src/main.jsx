@@ -21,6 +21,7 @@ import Leviathan from './writing/Leviathan';
 import Rousseau from './writing/Rousseau';
 import Kant from './writing/Kant';
 import Deception from './films/Deception';
+import WhatPoetry from './films/WhatPoetry';
 import Python from './coding/Python';
 import C from './coding/C';
 import ML from './coding/ML';
@@ -49,6 +50,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/writing/kant" element={<Kant />} />
         <Route path="/writing/rousseau" element={<Rousseau />} />
         <Route path="/films/deception" element={<Deception />} />
+        <Route path="/films/whatpoetry" element={<WhatPoetry />} />
         <Route path="/coding/ml" element={<ML />} />
         <Route path="/coding/c" element={<C />} />
         <Route path="/coding/python" element={<Python />} />
