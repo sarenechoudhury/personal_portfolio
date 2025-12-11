@@ -62,7 +62,7 @@ export default function App() {
 
           <div className="mt-6 flex flex-wrap gap-4 text-sm text-neutral-600">
             <a className="underline underline-offset-2" href="https://github.com/sarenechoudhury" target="_blank" rel="noreferrer">GitHub</a>
-            <a className="underline underline-offset-2" href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a className="underline underline-offset-2" href="www.linkedin.com/in/sarene-choudhury-a6b6a929b" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </section>
 
