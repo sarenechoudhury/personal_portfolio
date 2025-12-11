@@ -15,10 +15,10 @@ export default function About() {
       {/* Bio */}
       <section className="pb-16 max-w-2xl space-y-4">
         <p className="text-neutral-700">
-          I’m <strong>Sarene Choudhury</strong>, a student at the University of Chicago
-          majoring in <strong>Computer Science</strong> and <strong>Cinema Studies</strong>.
+          I’m Sarene Choudhury, a 3rd year student at the University of Chicago
+          majoring in Computer Science and Cinema Studies.
           I’m interested in the intersection of machine learning, storytelling, and
-          visual media — exploring how computational tools can help us understand or
+          visual media; exploring how computational tools can help us understand or
           create narrative.
         </p>
 
@@ -30,8 +30,8 @@ export default function About() {
         </p>
 
         <p className="text-neutral-700">
-          Beyond academics, I love <strong>reading fantasy novels</strong>,
-          <strong> creative writing</strong>, <strong>sailing</strong>,
+          Beyond academics, I love drawing, painting, fantasy novels,
+          creative writing, tennis, sailing,
           and exploring new forms of digital storytelling.
         </p>
       </section>
