@@ -45,7 +45,7 @@ export default function App() {
               Read essays
             </Link>
             <a
-              href="/dist/Sarene_Choudhury_Resume.pdf"
+              href="/public/Sarene_Choudhury_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center rounded-md border px-4 py-2 text-sm font-medium hover:bg-neutral-50"
