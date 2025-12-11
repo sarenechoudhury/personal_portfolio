@@ -12,7 +12,7 @@ export default function Deception() {
             controls
             preload="metadata"
           >
-            <source src="../public/videos/AlgPolDec.mp4" type="video/mp4" />
+            <source src="/videos/AlgPolDec.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
