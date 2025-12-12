@@ -18,10 +18,10 @@ export default function WhatPoetry() {
         </div>
 
         <p className="text-center text-slate-600 italic">
-        A critique on the manner by which social media has diluted activism, utilizing a short compilation of 'tiktok style' edit videos. 
+        A take on What is Poetry to You, the short film by Chilean artist, Cecilia Vicuña. 
         </p>
         <p className="text-center text-slate-600 italic">
-          While I believe social media activism can be impactful and is highly important, I am commenting on how due to algorithms, followers, and resultant echo chambers that have become a huge issue in media and politics with the age of technology, greatly limit the viewer base of such posts, and rarely change minds if watched by people with opposing ideologies.
+        My inspiration is film itself as all of these poems are somewhat related to films and the fantasy ideal. Where Vicuña inserted herself throughout her film by including herself in the interview shots, I think mine will be my perspective about film being a form of poetry and expression due to my background in and passion for film
         </p>
       </div>
     </Layout>

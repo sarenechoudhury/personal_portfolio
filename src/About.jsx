@@ -2,6 +2,13 @@ import React from 'react';
 import Layout from './Layout';
 
 export default function About() {
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <Layout>
       {/* Page header */}
@@ -24,23 +31,44 @@ export default function About() {
 
           {/* In-page navigation */}
           <nav className="mt-4 flex flex-wrap gap-3 text-sm text-neutral-700">
-            <a href="#coding-history-and-coursework" className="underline underline-offset-2">
+            <button
+              type="button"
+              onClick={() => scrollToSection('coding-history-and-coursework')}
+              className="underline underline-offset-2"
+            >
               Coding History &amp; Coursework
-            </a>
-            <a href="#work-experience" className="underline underline-offset-2">
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollToSection('work-experience')}
+              className="underline underline-offset-2"
+            >
               Work Experience
-            </a>
-            <a href="#filmmaking" className="underline underline-offset-2">
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollToSection('filmmaking')}
+              className="underline underline-offset-2"
+            >
               Filmmaking
-            </a>
-            <a href="#books" className="underline underline-offset-2">
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollToSection('books')}
+              className="underline underline-offset-2"
+            >
               Books
-            </a>
-            <a href="#film-and-tv" className="underline underline-offset-2">
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollToSection('film-and-tv')}
+              className="underline underline-offset-2"
+            >
               Film &amp; TV
-            </a>
+            </button>
           </nav>
         </section>
+
 
         {/* Coding History and Coursework */}
         <section

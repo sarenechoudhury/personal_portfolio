@@ -72,9 +72,13 @@ export default function App() {
           <ul className="mt-4 space-y-4">
             <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
               <div className="flex items-baseline justify-between gap-4">
-                <span className="font-medium group-hover:underline">
-                  Quant Research Intern — Quantbot Technologies (NYC)
-                </span>
+              <Link
+                to="/about#work-experience"
+                className="font-medium group-hover:underline"
+              >
+                Quant Research Intern — Quantbot Technologies (NYC)
+              </Link>
+
                 <span className="text-xs text-neutral-500">2024</span>
               </div>
               <p className="mt-1 text-sm text-neutral-600">
