@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/sarenechoudhury/sareneac/issues"
   },
-  "homepage": "https://github.com/sarenechoudhury/sareneac#readme",
+  "homepage": "https://www.sarenechoudhury.com",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
