@@ -18,30 +18,24 @@ export default function App() {
         </p>
 
         <div className="mt-7 flex flex-wrap gap-3">
-          <Link
-            to="/code"
-            className="inline-flex items-center rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800"
-          >
+          <Link to="/code" className="btn btn-primary">
             View ML & web projects
           </Link>
-          <Link
-            to="/writing"
-            className="inline-flex items-center rounded-md border px-4 py-2 text-sm font-medium hover:bg-neutral-50"
-          >
+
+          <Link to="/writing" className="btn btn-ghost">
             Read essays
           </Link>
+
           <a
-            href="/Sarene_Choudhury_1:26.pdf"
+            href="/Sarene_Choudhury_Resume.pdf"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center rounded-md border px-4 py-2 text-sm font-medium hover:bg-neutral-50"
+            className="btn btn-ghost"
           >
             Resume (PDF)
           </a>
-          <a
-            href="mailto:sareneac@icloud.com"
-            className="inline-flex items-center rounded-md border px-4 py-2 text-sm font-medium hover:bg-neutral-50"
-          >
+
+          <a href="mailto:sareneac@icloud.com" className="btn btn-ghost">
             Email me
           </a>
         </div>
@@ -69,44 +63,45 @@ export default function App() {
       {/* Highlights */}
       <section className="pb-20">
         <h2 className="text-xl font-semibold">Highlights</h2>
-        <ul className="mt-4 space-y-4">
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+        <ul className="mt-6 space-y-4">
+          <li className="card">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/about#work-experience" className="font-medium group-hover:underline">
+              <Link to="/about#work-experience" className="card-title card-link underline-offset-4 hover:underline">
                 Quant Research Intern — Quantbot Technologies (NYC)
               </Link>
-              <span className="text-xs text-neutral-500">2024</span>
+              <span className="card-meta">2024</span>
             </div>
-            <p className="mt-1 text-sm text-neutral-600">
-              Built and evaluated models with TensorFlow & LightGBM; explored gradient
-              quantization, model eval with DeepChecks, and feature generation.
+            <p className="card-body">
+              Built and evaluated models with TensorFlow & LightGBM; explored gradient quantization,
+              model eval with DeepChecks, and feature generation.
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="card">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/code" className="font-medium group-hover:underline">
+              <Link to="/code" className="card-title card-link underline-offset-4 hover:underline">
                 ML + Web projects
               </Link>
-              <span className="text-xs text-neutral-500">Python • JS • C</span>
+              <span className="card-meta">Python • JS • C</span>
             </div>
-            <p className="mt-1 text-sm text-neutral-600">
+            <p className="card-body">
               LightGBM box-office prediction, LSTM experiments, and a Vite/React portfolio.
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="card">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing" className="font-medium group-hover:underline">
+              <Link to="/writing" className="card-title card-link underline-offset-4 hover:underline">
                 Film & philosophy essays
               </Link>
-              <span className="text-xs text-neutral-500">Criticism</span>
+              <span className="card-meta">Criticism</span>
             </div>
-            <p className="mt-1 text-sm text-neutral-600">
+            <p className="card-body">
               Vertigo, Chinatown, and other analytical/creative pieces connecting cinema and theory.
             </p>
           </li>
         </ul>
+
       </section>
     </Layout>
   );

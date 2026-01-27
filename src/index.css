@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-medium
+      transition duration-200
+      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/30;
+  }
+
+  .btn-primary {
+    @apply bg-emerald-300/15 text-emerald-100 ring-1 ring-emerald-300/30
+      hover:bg-emerald-300/20 hover:ring-emerald-300/40;
+  }
+
+  .btn-ghost {
+    @apply bg-white/5 text-slate-100 ring-1 ring-white/10
+      hover:bg-white/10 hover:ring-white/20;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white/[0.04] ring-1 ring-white/10
+      px-5 py-4 transition duration-200;
+  }
+
+  .card:hover {
+    @apply bg-white/[0.06] ring-white/20;
+    transform: translateY(-1px);
+  }
+
+  .card-title {
+    @apply text-base font-semibold text-slate-100;
+  }
+
+  .card-meta {
+    @apply text-xs text-slate-400;
+  }
+
+  .card-body {
+    @apply mt-1 text-sm text-slate-300 leading-6;
+  }
+
+  .card-link {
+    @apply hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/30;
+  }
+}
+
+
