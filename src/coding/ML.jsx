@@ -19,19 +19,25 @@ export default function ML() {
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
-            <div className="flex items-baseline justify-between gap-4">
-              <span className="font-medium group-hover:underline">
-                Financial News Sentiment Signals
-              </span>
-              <span className="text-xs text-neutral-500">2025</span>
-            </div>
-            <p className="mt-1 text-sm text-neutral-600 italic">
-              A machine learning workflow using sentiment extraction and 
-              volatility-based prediction signals. Includes classification, feature 
-              engineering, and NLP modeling.
-            </p>
-          </li>
+        <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <div className="flex items-baseline justify-between gap-4">
+            <a
+              href="https://financial-news-sentiment-signals.onrender.com"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium group-hover:underline"
+            >
+              Financial News Sentiment Signals
+            </a>
+            <span className="text-xs text-neutral-500">2025</span>
+          </div>
+          <p className="mt-1 text-sm text-neutral-600 italic">
+            A machine learning workflow using sentiment extraction and
+            volatility-based prediction signals. Includes classification, feature
+            engineering, and NLP modeling.
+          </p>
+        </li>
+
 
           {/* Add more ML projects here when ready */}
 

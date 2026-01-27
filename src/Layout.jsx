@@ -168,18 +168,13 @@ export default function Layout({ children }) {
               <div>
                 <Link
                   to="/"
-                  className="inline-block rounded-md text-3xl font-semibold tracking-tight text-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/30"
+                  className="inline-block rounded-md text-3xl font-semibold tracking-tight text-emerald-300/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/30 hover:underline hover:text-emerald-200 hover:decoration-emerald-300/60"
                 >
                   Sarene Choudhury
                 </Link>
 
-                <p className="mt-3 text-sm text-slate-300">
-                  CS &amp; Cinema Studies @ UChicago
-                </p>
-
                 <p className="mt-6 max-w-sm text-sm leading-6 text-slate-300">
-                  I build ML + software projects and write about film, narrative, and theory.
-                  I like clean systems, strong storytelling, and thoughtful interfaces.
+                Computer Science and Cinema Studies student at the University of Chicago, exploring how machine learning and software can support creative tools, storytelling, and media analysis. I’ve built models using TensorFlow, Keras, and LightGBM, worked as a Quant Research Intern at Quantbot Technologies, and I write film and philosophy essays alongside technical projects.
                 </p>
 
                 <nav className="mt-10 space-y-1" aria-label="Primary">
