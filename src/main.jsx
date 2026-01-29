@@ -25,6 +25,7 @@ import WhatPoetry from './films/WhatPoetry';
 import Python from './coding/Python';
 import C from './coding/C';
 import ML from './coding/ML';
+import BoxOffice from './coding/BoxOffice';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -54,6 +55,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/coding/ml" element={<ML />} />
         <Route path="/coding/c" element={<C />} />
         <Route path="/coding/python" element={<Python />} />
+        <Route path="/coding/BoxOffice" element={<BoxOffice />} />
       </Routes>
     </Router>
   </React.StrictMode>

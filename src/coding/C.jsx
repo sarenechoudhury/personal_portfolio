@@ -1,4 +1,5 @@
 import Layout from '../Layout.jsx';
+import CardLink from "../CardLink.jsx";
 
 export default function C() {
   return (
@@ -17,9 +18,9 @@ export default function C() {
       {/* Project list */}
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="card card-interactive">
             <div className="flex items-baseline justify-between gap-4">
-              <span className="font-medium group-hover:underline">
+              <span className="card-title card-link group-">
                 A Doctrine Formed on the Sea
               </span>
               <span className="text-xs text-neutral-500">Oct 2022</span>

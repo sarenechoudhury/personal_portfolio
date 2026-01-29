@@ -1,4 +1,5 @@
 import Layout from '../Layout.jsx';
+import CardLink from "../CardLink.jsx";
 
 export default function Poetry() {
   return (
@@ -18,7 +19,7 @@ export default function Poetry() {
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
 
-          <li className="rounded-lg border p-4 hover:bg-neutral-50 transition text-neutral-600 text-sm italic">
+          <li className="card transition text-neutral-600 text-sm italic">
             Poetry uploads in progress — check back soon.
           </li>
 

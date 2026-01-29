@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from './Layout.jsx';
+import CardLink from "./CardLink.jsx";
 
 export default function Writing() {
   return (
@@ -19,9 +20,9 @@ export default function Writing() {
       {/* Categories */}
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/personal" className="font-medium group-hover:underline">
+              <Link to="/writing/personal" className="card-title card-link group-">
                 Personal Pieces
               </Link>
               <span className="text-xs text-neutral-500">Essays & notes</span>
@@ -31,9 +32,9 @@ export default function Writing() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/analytical" className="font-medium group-hover:underline">
+              <Link to="/writing/analytical" className="card-title card-link group-">
                 Analytical Essays
               </Link>
               <span className="text-xs text-neutral-500">Criticism</span>
@@ -43,9 +44,9 @@ export default function Writing() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/poetry" className="font-medium group-hover:underline">
+              <Link to="/writing/poetry" className="card-title card-link group-">
                 Poetry
               </Link>
               <span className="text-xs text-neutral-500">Selected poems</span>

@@ -168,7 +168,7 @@ export default function Layout({ children }) {
               <div>
                 <Link
                   to="/"
-                  className="inline-block rounded-md text-3xl font-semibold tracking-tight text-emerald-300/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/30 hover:underline hover:text-emerald-200 hover:decoration-emerald-300/60"
+                  className="inline-block rounded-md text-3xl font-semibold tracking-tight text-emerald-300/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/30  hover:text-emerald-200 hover:decoration-emerald-300/60"
                 >
                   Sarene Choudhury
                 </Link>

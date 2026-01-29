@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../Layout.jsx';
+import CardLink from "../CardLink.jsx";
 
 export default function Personal() {
   return (
@@ -19,9 +20,9 @@ export default function Personal() {
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/commandments" className="font-medium group-hover:underline">
+              <Link to="/writing/commandments" className="card-title card-link group-">
                 My Ten Commandments
               </Link>
               <span className="text-xs text-neutral-500">Oct 2022</span>
@@ -31,9 +32,9 @@ export default function Personal() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/multiverse" className="font-medium group-hover:underline">
+              <Link to="/writing/multiverse" className="card-title card-link group-">
                 Self-Worth in the Multiverse
               </Link>
               <span className="text-xs text-neutral-500">Oct 2022</span>
@@ -43,9 +44,9 @@ export default function Personal() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/trutescu" className="font-medium group-hover:underline">
+              <Link to="/writing/trutescu" className="card-title card-link group-">
                 Christina Trutescu Will Never Give Up
               </Link>
               <span className="text-xs text-neutral-500">Mar 2022</span>

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../Layout.jsx';
+import CardLink from "../CardLink.jsx";
 
 export default function Analytical() {
   return (
@@ -19,9 +20,9 @@ export default function Analytical() {
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/kant" className="font-medium group-hover:underline">
+              <Link to="/writing/kant" className="card-title card-link group-">
                 Unfolding Order in Cosmopolitan Progress
               </Link>
               <span className="text-xs text-neutral-500">Dec 2024</span>
@@ -32,9 +33,9 @@ export default function Analytical() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/rousseau" className="font-medium group-hover:underline">
+              <Link to="/writing/rousseau" className="card-title card-link group-">
                 From Savage Liberty to Civic Unity
               </Link>
               <span className="text-xs text-neutral-500">Nov 2024</span>
@@ -44,9 +45,9 @@ export default function Analytical() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/leviathan" className="font-medium group-hover:underline">
+              <Link to="/writing/leviathan" className="card-title card-link group-">
                 The Soul of the Commonwealth: Hobbesian Sovereignty as Reason and Nurture
               </Link>
               <span className="text-xs text-neutral-500">Nov 2024</span>
@@ -56,9 +57,9 @@ export default function Analytical() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/whipping" className="font-medium group-hover:underline">
+              <Link to="/writing/whipping" className="card-title card-link group-">
                 Memory, Time, and the Psychology of Abuse
               </Link>
               <span className="text-xs text-neutral-500">Nov 2023</span>
@@ -68,9 +69,9 @@ export default function Analytical() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/catcher" className="font-medium group-hover:underline">
+              <Link to="/writing/catcher" className="card-title card-link group-">
                 False Maturity, Exploration, and Conviction in Teenage Authenticity
               </Link>
               <span className="text-xs text-neutral-500">Jan 2023</span>
@@ -80,9 +81,9 @@ export default function Analytical() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/vertigo" className="font-medium group-hover:underline">
+              <Link to="/writing/vertigo" className="card-title card-link group-">
                 Screen Memory and Obsession in Achieving Absolution
               </Link>
               <span className="text-xs text-neutral-500">Dec 2022</span>
@@ -92,9 +93,9 @@ export default function Analytical() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/writing/chinatown" className="font-medium group-hover:underline">
+              <Link to="/writing/chinatown" className="card-title card-link group-">
                 The Disquieting Reality of Chinatown, One Comparable to Our Own
               </Link>
               <span className="text-xs text-neutral-500">Oct 2022</span>

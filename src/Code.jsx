@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from './Layout.jsx';
+import CardLink from "./CardLink.jsx";
 
 export default function Code() {
   return (
@@ -19,9 +20,9 @@ export default function Code() {
       {/* Categories */}
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/coding/python" className="font-medium group-hover:underline">
+              <Link to="/coding/python" className="card-title card-link group-">
                 Python
               </Link>
               <span className="text-xs text-neutral-500">Scripting & data analysis</span>
@@ -31,9 +32,9 @@ export default function Code() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/coding/ml" className="font-medium group-hover:underline">
+              <Link to="/coding/ml" className="card-title card-link group-">
                 Machine Learning
               </Link>
               <span className="text-xs text-neutral-500">Models & experiments</span>
@@ -44,9 +45,9 @@ export default function Code() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/coding/c" className="font-medium group-hover:underline">
+              <Link to="/coding/c" className="card-title card-link group-">
                 C
               </Link>
               <span className="text-xs text-neutral-500">Systems programming</span>

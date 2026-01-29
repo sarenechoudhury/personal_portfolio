@@ -1,4 +1,5 @@
 import Layout from '../Layout.jsx';
+import CardLink from "../CardLink.jsx";
 
 export default function Python() {
   return (
@@ -19,9 +20,9 @@ export default function Python() {
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <span className="font-medium group-hover:underline">
+              <span className="card-title card-link group-">
                 Algorithmic Text Analysis Toolkit
               </span>
               <span className="text-xs text-neutral-500">2024</span>

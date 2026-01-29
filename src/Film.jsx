@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from './Layout.jsx';
+import CardLink from "./CardLink.jsx";
 
 export default function Film() {
   return (
@@ -18,9 +19,9 @@ export default function Film() {
       {/* Pieces */}
       <section className="pb-16">
         <ul className="mt-4 space-y-4">
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/films/deception" className="font-medium group-hover:underline">
+              <Link to="/films/deception" className="card-title card-link group-">
                 An Algorithmic Politics of Deception
               </Link>
               <span className="text-xs text-neutral-500">May 2025</span>
@@ -30,9 +31,9 @@ export default function Film() {
             </p>
           </li>
 
-          <li className="group rounded-lg border p-4 hover:bg-neutral-50 transition">
+          <li className="group card transition">
             <div className="flex items-baseline justify-between gap-4">
-              <Link to="/films/whatpoetry" className="font-medium group-hover:underline">
+              <Link to="/films/whatpoetry" className="card-title card-link group-">
                 What is Poetry To You
               </Link>
               <span className="text-xs text-neutral-500">March 2024</span>
